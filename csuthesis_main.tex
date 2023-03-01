@@ -3,6 +3,8 @@
 \include{content/info}
 
 \begin{document}
+\renewcommand*{\baselinestretch}{1.5}   % 几倍行间距
+\setlength{\baselineskip}{22.5pt}       % 基准行间距
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 封面
 % -----------------------------------------------%
@@ -33,6 +35,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 英文摘要
 % -----------------------------------------------%
+\renewcommand*{\baselinestretch}{1.0} 
 \include{content/abstracten}
 \newpage
 
@@ -42,7 +45,7 @@
 {
 
 \renewcommand{\contentsname}{\hfill \heiti \zihao{3} 目\quad 录\hfill}
-	\renewcommand*{\baselinestretch}{1.5}   % 行间距
+	\renewcommand*{\baselinestretch}{1.435}   % 行间距
     \tableofcontents
 }
 \newpage
@@ -66,8 +69,8 @@
 % 论文正文是主体，主体部分应从另页右页开始，每一章应另起页。一般由序号标题、文字叙述、图、表格和公式等五个部分构成。
 
 % 重新设置正文行间距，因为前置部分设置时候行间距被改过
-\renewcommand*{\baselinestretch}{1.0}   % 几倍行间距
-\setlength{\baselineskip}{20pt}         % 基准行间距
+\renewcommand*{\baselinestretch}{1.5}   % 几倍行间距
+
 
 % 正文
 \include{content/content}

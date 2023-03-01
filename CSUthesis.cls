@@ -94,7 +94,7 @@ Just choose `xelatex', no `pdflatex' or `latex' and so on.}
 
 % 页面布局 %
 % -------------------------------------------------------%
-\geometry{top=2.5cm,bottom=2.5cm,left=2cm,right=2cm}
+\geometry{top=2.5cm,bottom=2.5cm,left=3cm,right=2cm}
 % 给页眉留足空间（否则会有 \headheight is too small的warning）
 \setlength{\headheight}{14.5pt}
 % “磅”是衡量印刷字体大小的单位,约等于七十二分之一英寸。
@@ -275,7 +275,7 @@ Just choose `xelatex', no `pdflatex' or `latex' and so on.}
 }
 {
     \begin{flushleft}
-        \noindent {\zihao{4} \bfseries Key\ words:~} {\zihao{4} \@keywordsen} \par % 关键词为四号黑体，内容为四号宋体
+        \noindent {\zihao{-4} \bfseries Key\ words:~} {\zihao{-4} \@keywordsen} \par % 关键词为四号黑体，内容为四号宋体
     \end{flushleft}
 }
 
