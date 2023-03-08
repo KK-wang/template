@@ -320,6 +320,8 @@ Just choose `xelatex', no `pdflatex' or `latex' and so on.}
 \titleformat{\section}{\zihao{3}  \heiti \centering}{\chaptername}{1em}{}
 \titleformat{\subsection}{\zihao{-4}  \heiti}{\thesubsection}{1em}{}
 \titleformat{\subsubsection}{\zihao{-4}  \kaishu}{\thesubsubsection}{1em}{}
+\titlespacing*{\subsection}{\parindent}{1ex}{1em}
+\titlespacing*{\subsubsection}{\parindent}{1ex}{1em}
 
 % 定义在目录中的格式
 % \titlecontents{标题名}
